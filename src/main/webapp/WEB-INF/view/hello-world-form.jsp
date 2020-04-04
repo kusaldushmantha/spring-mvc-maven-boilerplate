@@ -10,7 +10,7 @@
 <body>
     <h1>Form Input</h1>
     <br>
-    <form action="makeAllCaps" method="get">
+    <form action="makeAllCapsVersionTwo" method="get">
         <label>
             <input type="text" name="studentName" placeholder="Enter your name">
         </label>
