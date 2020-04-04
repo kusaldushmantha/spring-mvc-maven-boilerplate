@@ -9,6 +9,6 @@
 </head>
 <body>
     <h1>Hello!! Welcome to home page</h1>
-    <a href="showForm">Go to form</a>
+    <a href="${pageContext.request.contextPath}/student/showForm">Go to form</a>
 </body>
 </html>
