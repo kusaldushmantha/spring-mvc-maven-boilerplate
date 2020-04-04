@@ -5,14 +5,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * Created By: Kusal Kankanamge
- * Created On: 02-Apr-2020
+ * Created On: 04-Apr-2020
  */
 @Controller
 public class HomeController
 {
-    @RequestMapping("/")
-    public String showPage()
+    @RequestMapping( "/" )
+    public String getHomePage()
     {
-        return "index"; // Name of the jsp file without prefix and suffix
+        return "home-page";
     }
 }

@@ -1,0 +1,14 @@
+<%--
+  User: Kusal
+  Date: 4/4/2020
+--%>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SpringMVC</title>
+</head>
+<body>
+    <h1>Hello!! Welcome to home page</h1>
+    <a href="showForm">Go to form</a>
+</body>
+</html>
