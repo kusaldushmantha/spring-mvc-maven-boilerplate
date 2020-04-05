@@ -1,5 +1,7 @@
 package springmvctutorial;
 
+import springmvctutorial.validation.CourseCode;
+
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
@@ -21,6 +23,19 @@ public class Customer
     @Min( value = 0, message = "must be greater than 0" )
     @Max( value = 10, message = "must be lesser than 10" )
     private Integer freePasses;
+
+    @CourseCode
+    private String courseCode;
+
+    public String getCourseCode()
+    {
+        return courseCode;
+    }
+
+    public void setCourseCode( String courseCode )
+    {
+        this.courseCode = courseCode;
+    }
 
     public String getFirstName()
     {
